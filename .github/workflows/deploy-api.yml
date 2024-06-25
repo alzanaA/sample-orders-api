@@ -15,8 +15,8 @@ jobs:
       with:
         manager-host: api-manager.us-east-a.apiconnect.automation.ibm.com
         api-host: platform-api.us-east-a.apiconnect.automation.ibm.com
-        provider-org: 'demo'
-        catalog: 'sandbox'
+        provider-org: 'techsales'
+        catalog: 'af-catalog'
         apikey: ${{ secrets.apikey }}
         product-file: 'product.yaml'
         migrate_subscriptions: 'true'
